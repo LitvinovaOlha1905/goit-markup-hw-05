@@ -103,6 +103,9 @@ body {
 .menu-link {
   position: relative;
   display: block;
+
+  color: var(--accent-ocean-color);
+
   transition-property: color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--timing-function);
@@ -580,7 +583,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  color: var(--accent-ocean-color);
+  background-color: var(--accent-ocean-color);
   border: none;
 }
 
