@@ -96,7 +96,6 @@ body {
 
 .menu-link {
   position: relative;
-  display: block;
 
   font-weight: 500;
   font-size: 16px;
@@ -401,7 +400,6 @@ body {
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--timing-function);
 
-  fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
